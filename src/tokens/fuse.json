@@ -1,0 +1,65 @@
+[
+  {
+    "address": "0x0000000000000000000000000000000000000000",
+    "symbol": "FUSE",
+    "name": "FUSE",
+    "decimals": 18,
+    "chainId": 122,
+    "coinKey": "FUSE",
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/5634.png"
+  },
+  {
+    "address": "0x0BE9e53fd7EDaC9F859882AfdDa116645287C629",
+    "symbol": "WFUSE",
+    "name": "Wrapped Fuse",
+    "decimals": 18,
+    "chainId": 122,
+    "coinKey": "WFUSE",
+    "logoURI": "https://static.debank.com/image/fuse_token/logo_url/0x0be9e53fd7edac9f859882afdda116645287c629/26d6e40e90bb2bf775820b1afef6ffb6.png"
+  },
+  {
+    "address": "0x620fd5fa44BE6af63715Ef4E65DDFA0387aD13F5",
+    "symbol": "USDC",
+    "name": "USD Coin",
+    "decimals": 6,
+    "chainId": 122,
+    "coinKey": "USDC",
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
+  },
+  {
+    "address": "0x6a5F6A8121592BeCd6747a38d67451B310F7f156",
+    "symbol": "BUSD",
+    "name": "BUSD",
+    "decimals": 18,
+    "chainId": 122,
+    "coinKey": "BUSD",
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/binance/assets/BUSD-BD1/logo.png"
+  },
+  {
+    "address": "0x94Ba7A27c7A95863d1bdC7645AC2951E0cca06bA",
+    "symbol": "DAI",
+    "name": "DAI Stablecoin",
+    "decimals": 18,
+    "chainId": 122,
+    "coinKey": "DAI",
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png"
+  },
+  {
+    "address": "0xFaDbBF8Ce7D5b7041bE672561bbA99f79c532e10",
+    "symbol": "USDT",
+    "name": "USDT",
+    "decimals": 6,
+    "chainId": 122,
+    "coinKey": "USDT",
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+  },
+  {
+    "address": "0x2502F488D481Df4F5054330C71b95d93D41625C2",
+    "symbol": "DAI",
+    "name": "Dai Stablecoin",
+    "decimals": 18,
+    "chainId": 122,
+    "coinKey": "DAI",
+    "logoURI": "https://static.debank.com/image/fuse_token/logo_url/0x2502f488d481df4f5054330c71b95d93d41625c2/b0f7e93ed5d6314101bb6c225e8141ac.png"
+  }
+]

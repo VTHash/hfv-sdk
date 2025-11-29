@@ -1,0 +1,38 @@
+[
+  {
+    "address": "0x0000000000000000000000000000000000000000",
+    "symbol": "ETH",
+    "name": "ETH",
+    "decimals": 18,
+    "chainId": 1868,
+    "coinKey": "ETH",
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+  },
+  {
+    "address": "0xbA9986D2381edf1DA03B0B9c1f8b00dc4AacC369",
+    "symbol": "USDC.e",
+    "name": "Bridged USDC (Soneium)",
+    "decimals": 6,
+    "chainId": 1868,
+    "coinKey": "USDCe",
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
+  },
+  {
+    "address": "0x3A337a6adA9d885b6Ad95ec48F9b75f197b5AE35",
+    "symbol": "USDT",
+    "name": "Bridged USDT (Soneium)",
+    "decimals": 6,
+    "chainId": 1868,
+    "coinKey": "USDT",
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+  },
+  {
+    "address": "0x4200000000000000000000000000000000000006",
+    "symbol": "WETH",
+    "name": "WETH",
+    "decimals": 18,
+    "chainId": 1868,
+    "coinKey": "WETH",
+    "logoURI": "https://static.debank.com/image/eth_token/logo_url/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2/61844453e63cf81301f845d7864236f6.png"
+  }
+]

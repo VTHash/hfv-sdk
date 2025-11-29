@@ -1,0 +1,38 @@
+[
+  {
+    "address": "0x0000000000000000000000000000000000000000",
+    "symbol": "ETH",
+    "name": "ETH",
+    "decimals": 18,
+    "chainId": 34443,
+    "coinKey": "ETH",
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+  },
+  {
+    "address": "0x4200000000000000000000000000000000000006",
+    "symbol": "WETH",
+    "name": "WETH",
+    "decimals": 18,
+    "chainId": 34443,
+    "coinKey": "WETH",
+    "logoURI": "https://static.debank.com/image/mtr_token/logo_url/0x79a61d3a28f8c8537a3df63092927cfa1150fb3c/61844453e63cf81301f845d7864236f6.png"
+  },
+  {
+    "address": "0xd988097fb8612cc24eeC14542bC03424c656005f",
+    "symbol": "USDC",
+    "name": "USD Coin",
+    "decimals": 6,
+    "chainId": 34443,
+    "coinKey": "USDC",
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
+  },
+  {
+    "address": "0xf0F161fDA2712DB8b566946122a5af183995e2eD",
+    "symbol": "USDT",
+    "name": "USDT",
+    "decimals": 6,
+    "chainId": 34443,
+    "coinKey": "USDT",
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+  }
+]

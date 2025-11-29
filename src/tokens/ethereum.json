@@ -1,0 +1,104 @@
+[
+  {
+    "address": "0x0000000000000000000000000000000000000000",
+    "symbol": "ETH",
+    "name": "ETH",
+    "decimals": 18,
+    "chainId": 1,
+    "coinKey": "ETH",
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+  },
+  {
+    "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "symbol": "WETH",
+    "name": "WETH",
+    "decimals": 18,
+    "chainId": 1,
+    "coinKey": "WETH",
+    "logoURI": "https://static.debank.com/image/eth_token/logo_url/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2/61844453e63cf81301f845d7864236f6.png"
+  },
+  {
+    "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "symbol": "USDT",
+    "name": "USDT",
+    "decimals": 6,
+    "chainId": 1,
+    "coinKey": "USDT",
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+  },
+  {
+    "address": "0xb1A7F8b3AdA1Cbd7752c1306725b07D2F8B4e726",
+    "symbol": "WETH",
+    "name": "Wrapped Ether from PulseChain",
+    "decimals": 18,
+    "chainId": 1
+  },
+  {
+    "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "symbol": "USDC",
+    "name": "USD Coin",
+    "decimals": 6,
+    "chainId": 1,
+    "coinKey": "USDC",
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
+  },
+  {
+    "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+    "symbol": "DAI",
+    "name": "DAI Stablecoin",
+    "decimals": 18,
+    "chainId": 1,
+    "coinKey": "DAI",
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png"
+  },
+  {
+    "address": "0x4Fabb145d64652a948d72533023f6E7A623C7C53",
+    "symbol": "BUSD",
+    "name": "BUSD",
+    "decimals": 18,
+    "chainId": 1,
+    "coinKey": "BUSD",
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/binance/assets/BUSD-BD1/logo.png"
+  },
+  {
+    "address": "0x0000000000085d4780B73119b644AE5ecd22b376",
+    "symbol": "TUSD",
+    "name": "TrueUSD",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://storage.googleapis.com/zapper-fi-assets/tokens/ethereum/0x0000000000085d4780b73119b644ae5ecd22b376.png"
+  },
+  {
+    "address": "0x853d955aCEf822Db058eb8505911ED77F175b99e",
+    "symbol": "FRAX",
+    "name": "FRAX",
+    "decimals": 18,
+    "chainId": 1,
+    "coinKey": "FRAX",
+    "logoURI": "https://static.debank.com/image/movr_token/logo_url/0x965f84d915a9efa2dd81b653e3ae736555d945f4/1f2c42cba1add081f314ee899ab67816.png"
+  },
+  {
+    "address": "0x0C10bF8FcB7Bf5412187A595ab97a3609160b5c6",
+    "symbol": "USDD",
+    "name": "USDD",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://storage.googleapis.com/zapper-fi-assets/tokens/ethereum/0x0c10bf8fcb7bf5412187a595ab97a3609160b5c6.png"
+  },
+  {
+    "address": "0x4f8e5DE400DE08B164E7421B3EE387f461beCD1A",
+    "symbol": "USDD",
+    "name": "Usdd Stablecoin",
+    "decimals": 18,
+    "chainId": 1,
+    "coinKey": "USDD",
+    "logoURI": "https://static.debank.com/image/eth_token/logo_url/0x4f8e5de400de08b164e7421b3ee387f461becd1a/70890e6172f62f4430bfeaff32680884.png"
+  },
+  {
+    "address": "0x2F21c6499fa53a680120e654a27640Fc8Aa40BeD",
+    "symbol": "USDC",
+    "name": "OpenEden USDC Vault",
+    "decimals": 18,
+    "chainId": 1
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "address": "0xac485391EB2d7D88253a7F1eF18C37f4242D1A24",
+    "symbol": "LSK",
+    "name": "LSK",
+    "decimals": 18,
+    "chainId": 1135,
+    "coinKey": "LSK",
+    "logoURI": "https://static.debank.com/image/lisk_token/logo_url/0xac485391eb2d7d88253a7f1ef18c37f4242d1a24/b8f1b2ca1cb34102fe9118b5670c07e2.png"
+  },
+  {
+    "address": "0xF242275d3a6527d877f2c927a82D9b057609cc71",
+    "symbol": "USDC.e",
+    "name": "Bridged USDC (Lisk)",
+    "decimals": 6,
+    "chainId": 1135,
+    "coinKey": "USDCe",
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
+  },
+  {
+    "address": "0x05D032ac25d322df992303dCa074EE7392C117b9",
+    "symbol": "USDT",
+    "name": "USDT",
+    "decimals": 6,
+    "chainId": 1135,
+    "coinKey": "USDT",
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+  }
+]

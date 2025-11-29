@@ -1,0 +1,20 @@
+[
+  {
+    "address": "0x84A71ccD554Cc1b02749b35d22F684CC8ec987e1",
+    "symbol": "USDC.e",
+    "name": "Bridged USD (Stargate)",
+    "decimals": 6,
+    "chainId": 2741,
+    "coinKey": "USDCe",
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
+  },
+  {
+    "address": "0x0709F39376dEEe2A2dfC94A58EdEb2Eb9DF012bD",
+    "symbol": "USDT",
+    "name": "USDT",
+    "decimals": 6,
+    "chainId": 2741,
+    "coinKey": "USDT",
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+  }
+]

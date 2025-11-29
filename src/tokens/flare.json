@@ -1,0 +1,29 @@
+[
+  {
+    "address": "0x0000000000000000000000000000000000000000",
+    "symbol": "FLR",
+    "name": "Flare",
+    "decimals": 18,
+    "chainId": 14,
+    "coinKey": "FLR",
+    "logoURI": "https://static.debank.com/image/flr_token/logo_url/flr/c7d8087092d5d7b80794630612afb32e.png"
+  },
+  {
+    "address": "0x0B38e83B86d491735fEaa0a791F65c2B99535396",
+    "symbol": "USDT",
+    "name": "USDT",
+    "decimals": 6,
+    "chainId": 14,
+    "coinKey": "USDT",
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+  },
+  {
+    "address": "0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d",
+    "symbol": "WFLR",
+    "name": "Wrapped Flare",
+    "decimals": 18,
+    "chainId": 14,
+    "coinKey": "WFLR",
+    "logoURI": "https://static.debank.com/image/flr_token/logo_url/0x1d80c49bbbcd1c0911346656b529df9e5c2f783d/c7d8087092d5d7b80794630612afb32e.png"
+  }
+]

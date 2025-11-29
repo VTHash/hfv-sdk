@@ -1,0 +1,92 @@
+[
+  {
+    "address": "0x0000000000000000000000000000000000000000",
+    "symbol": "AVAX",
+    "name": "AVAX",
+    "decimals": 18,
+    "chainId": 43114,
+    "coinKey": "AVAX",
+    "logoURI": "https://static.debank.com/image/avax_token/logo_url/avax/0b9c84359c84d6bdd5bfda9c2d4c4a82.png"
+  },
+  {
+    "address": "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7",
+    "symbol": "USDt",
+    "name": "TetherToken",
+    "decimals": 6,
+    "chainId": 43114,
+    "coinKey": "USDt",
+    "logoURI": "https://static.debank.com/image/eth_token/logo_url/0xdac17f958d2ee523a2206206994597c13d831ec7/464c0de678334b8fe87327e527bc476d.png"
+  },
+  {
+    "address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+    "symbol": "USDC",
+    "name": "USD Coin",
+    "decimals": 6,
+    "chainId": 43114,
+    "coinKey": "USDC",
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
+  },
+  {
+    "address": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+    "symbol": "WAVAX",
+    "name": "Wrapped AVAX",
+    "decimals": 18,
+    "chainId": 43114,
+    "coinKey": "WAVAX",
+    "logoURI": "https://static.debank.com/image/avax_token/logo_url/0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7/753d82f0137617110f8dec56309b4065.png"
+  },
+  {
+    "address": "0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664",
+    "symbol": "USDC.e",
+    "name": "Bridged USD Coin",
+    "decimals": 6,
+    "chainId": 43114,
+    "coinKey": "USDCe",
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
+  },
+  {
+    "address": "0xc7198437980c041c805A1EDcbA50c1Ce5db95118",
+    "symbol": "USDT.e",
+    "name": "Tether USD",
+    "decimals": 6,
+    "chainId": 43114,
+    "coinKey": "USDT",
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+  },
+  {
+    "address": "0xD24C2Ad096400B6FBcd2ad8B24E7acBc21A1da64",
+    "symbol": "FRAX",
+    "name": "Frax",
+    "decimals": 18,
+    "chainId": 43114,
+    "coinKey": "FRAX",
+    "logoURI": "https://static.debank.com/image/avax_token/logo_url/0xd24c2ad096400b6fbcd2ad8b24e7acbc21a1da64/4f323e33bfffa864c577e7bd2a3257c9.png"
+  },
+  {
+    "address": "0x1C20E891Bab6b1727d14Da358FAe2984Ed9B59EB",
+    "symbol": "TUSD",
+    "name": "TrueUSD",
+    "decimals": 18,
+    "chainId": 43114,
+    "coinKey": "TUSD",
+    "logoURI": "https://static.debank.com/image/avax_token/logo_url/0x1c20e891bab6b1727d14da358fae2984ed9b59eb/9fedba67e80a738c281bd0ba8e9f1c5e.png"
+  },
+  {
+    "address": "0x9C9e5fD8bbc25984B178FdCE6117Defa39d2db39",
+    "symbol": "BUSD",
+    "name": "BUSD",
+    "decimals": 18,
+    "chainId": 43114,
+    "coinKey": "BUSD",
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/binance/assets/BUSD-BD1/logo.png"
+  },
+  {
+    "address": "0xDC42728B0eA910349ed3c6e1c9Dc06b5FB591f98",
+    "symbol": "FRAX",
+    "name": "FRAX",
+    "decimals": 18,
+    "chainId": 43114,
+    "coinKey": "FRAX",
+    "logoURI": "https://static.debank.com/image/movr_token/logo_url/0x965f84d915a9efa2dd81b653e3ae736555d945f4/1f2c42cba1add081f314ee899ab67816.png"
+  }
+]

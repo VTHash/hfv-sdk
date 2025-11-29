@@ -1,0 +1,47 @@
+[
+  {
+    "address": "0x0000000000000000000000000000000000000000",
+    "symbol": "SEI",
+    "name": "SEI",
+    "decimals": 18,
+    "chainId": 1329,
+    "coinKey": "SEI",
+    "logoURI": "https://cdn.sei.io/sei-app/sei-icon.png"
+  },
+  {
+    "address": "0xe15fC38F6D8c56aF07bbCBe3BAf5708A2Bf42392",
+    "symbol": "USDC",
+    "name": "USDC",
+    "decimals": 6,
+    "chainId": 1329,
+    "coinKey": "USDC",
+    "logoURI": "https://static.debank.com/image/coin/logo_url/usdc/e87790bfe0b3f2ea855dc29069b38818.png"
+  },
+  {
+    "address": "0x80Eede496655FB9047dd39d9f418d5483ED600df",
+    "symbol": "FRAX",
+    "name": "FRAX",
+    "decimals": 18,
+    "chainId": 1329,
+    "coinKey": "FRAX",
+    "logoURI": "https://static.debank.com/image/movr_token/logo_url/0x965f84d915a9efa2dd81b653e3ae736555d945f4/1f2c42cba1add081f314ee899ab67816.png"
+  },
+  {
+    "address": "0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7",
+    "symbol": "WSEI",
+    "name": "Wrapped SEI",
+    "decimals": 18,
+    "chainId": 1329,
+    "coinKey": "WSEI",
+    "logoURI": "https://cdn.sei.io/sei-app/sei-icon.png"
+  },
+  {
+    "address": "0xB75D0B03c06A926e488e2659DF1A861F860bD3d1",
+    "symbol": "USDT",
+    "name": "USDT (old)",
+    "decimals": 6,
+    "chainId": 1329,
+    "coinKey": "USDT",
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+  }
+]

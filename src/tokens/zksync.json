@@ -1,0 +1,74 @@
+[
+  {
+    "address": "0x0000000000000000000000000000000000000000",
+    "symbol": "ETH",
+    "name": "ETH",
+    "decimals": 18,
+    "chainId": 324,
+    "coinKey": "ETH",
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+  },
+  {
+    "address": "0x2039bb4116B4EFc145Ec4f0e2eA75012D6C0f181",
+    "symbol": "BUSD",
+    "name": "Binance USD",
+    "decimals": 18,
+    "chainId": 324,
+    "coinKey": "BUSD",
+    "logoURI": "https://static.debank.com/image/eth_token/logo_url/0x4fabb145d64652a948d72533023f6e7a623c7c53/a2442d82345bd7fcba54c5b380aeaf36.png"
+  },
+  {
+    "address": "0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91",
+    "symbol": "WETH",
+    "name": "Wrapped Ether",
+    "decimals": 18,
+    "chainId": 324,
+    "coinKey": "WETH",
+    "logoURI": "https://static.debank.com/image/era_token/logo_url/0x5aea5775959fbc2557cc8789bc1bf90a239d9a91/61844453e63cf81301f845d7864236f6.png"
+  },
+  {
+    "address": "0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4",
+    "symbol": "USDC.e",
+    "name": "Bridged USD Coin",
+    "decimals": 6,
+    "chainId": 324,
+    "coinKey": "USDCe",
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
+  },
+  {
+    "address": "0x493257fD37EDB34451f62EDf8D2a0C418852bA4C",
+    "symbol": "USDT",
+    "name": "USDT",
+    "decimals": 6,
+    "chainId": 324,
+    "coinKey": "USDT",
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+  },
+  {
+    "address": "0x1d17CBcF0D6D143135aE902365D2E5e2A16538D4",
+    "symbol": "USDC",
+    "name": "USD Coin",
+    "decimals": 6,
+    "chainId": 324,
+    "coinKey": "USDC",
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
+  },
+  {
+    "address": "0x4B9eb6c0b6ea15176BBF62841C6B2A8a398cb656",
+    "symbol": "DAI",
+    "name": "Dai Stablecoin",
+    "decimals": 18,
+    "chainId": 324,
+    "coinKey": "DAI",
+    "logoURI": "https://static.debank.com/image/eth_token/logo_url/0x6b175474e89094c44da98b954eedeac495271d0f/549c4205dbb199f1b8b03af783f35e71.png"
+  },
+  {
+    "address": "0xb4C1544cb4163f4C2ECa1aE9Ce999F63892d912A",
+    "symbol": "FRAX",
+    "name": "Frax",
+    "decimals": 18,
+    "chainId": 324,
+    "coinKey": "FRAX",
+    "logoURI": "https://static.debank.com/image/era_token/logo_url/0xb4c1544cb4163f4c2eca1ae9ce999f63892d912a/b51f74f3b0cd24c8d6e4e7297c20ac3d.png"
+  }
+]

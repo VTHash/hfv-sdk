@@ -1,0 +1,44 @@
+[
+  {
+    "address": "0x0000000000000000000000000000000000000000",
+    "symbol": "XDC",
+    "name": "XDC",
+    "decimals": 18,
+    "chainId": 50,
+    "coinKey": "XDC",
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/xdc.svg"
+  },
+  {
+    "address": "0xcdA5b77E2E2268D9E09c874c1b9A4c3F07b37555",
+    "symbol": "USDT",
+    "name": "Bridged stgUSDT",
+    "decimals": 6,
+    "chainId": 50,
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+  },
+  {
+    "address": "0xfA2958CB79b0491CC627c1557F441eF849Ca8eb1",
+    "symbol": "USDC",
+    "name": " USDC",
+    "decimals": 6,
+    "chainId": 50,
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
+  },
+  {
+    "address": "0x2A8E898b6242355c290E1f4Fc966b8788729A4D4",
+    "symbol": "USDC.e",
+    "name": "Bridged USDC(XDC)",
+    "decimals": 6,
+    "chainId": 50,
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
+  },
+  {
+    "address": "0x951857744785E80e2De051c32EE7b25f9c458C42",
+    "symbol": "WXDC",
+    "name": "WXDC",
+    "decimals": 18,
+    "chainId": 50,
+    "coinKey": "WXDC",
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/xdc.svg"
+  }
+]

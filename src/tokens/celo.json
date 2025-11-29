@@ -1,0 +1,45 @@
+[
+  {
+    "address": "0x471EcE3750Da237f93B8E339c536989b8978a438",
+    "symbol": "CELO",
+    "name": "Celo native asset",
+    "decimals": 18,
+    "chainId": 42220,
+    "coinKey": "CELO",
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/5567.png"
+  },
+  {
+    "address": "0xcebA9300f2b948710d2653dD7B07f33A8B32118C",
+    "symbol": "USDC",
+    "name": "USD Coin",
+    "decimals": 6,
+    "chainId": 42220,
+    "coinKey": "USDC",
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
+  },
+  {
+    "address": "0x90Ca507a5D4458a4C6C6249d186b6dCb02a5BCCd",
+    "symbol": "DAI",
+    "name": "DAI Stablecoin",
+    "decimals": 18,
+    "chainId": 42220,
+    "coinKey": "DAI",
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png"
+  },
+  {
+    "address": "0xb020D981420744F6b0FedD22bB67cd37Ce18a1d5",
+    "symbol": "USDT",
+    "name": "Tether USD",
+    "decimals": 6,
+    "chainId": 42220,
+    "coinKey": "USDT"
+  },
+  {
+    "address": "0x1bfc26cE035c368503fAE319Cc2596716428ca44",
+    "symbol": "USDC",
+    "name": "USD Coin (PoS)",
+    "decimals": 6,
+    "chainId": 42220,
+    "coinKey": "USDC"
+  }
+]

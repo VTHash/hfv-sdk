@@ -1,0 +1,56 @@
+[
+  {
+    "address": "0x0000000000000000000000000000000000000000",
+    "symbol": "MOVR",
+    "name": "MOVR",
+    "decimals": 18,
+    "chainId": 1285,
+    "coinKey": "MOVR",
+    "logoURI": "https://assets.coingecko.com/coins/images/17984/small/9285.png"
+  },
+  {
+    "address": "0x1A93B23281CC1CDE4C4741353F3064709A16197d",
+    "symbol": "FRAX",
+    "name": "FRAX",
+    "decimals": 18,
+    "chainId": 1285,
+    "coinKey": "FRAX",
+    "logoURI": "https://static.debank.com/image/movr_token/logo_url/0x965f84d915a9efa2dd81b653e3ae736555d945f4/1f2c42cba1add081f314ee899ab67816.png"
+  },
+  {
+    "address": "0x98878B06940aE243284CA214f92Bb71a2b032B8A",
+    "symbol": "WMOVR",
+    "name": "WMOVR",
+    "decimals": 18,
+    "chainId": 1285,
+    "coinKey": "WMOVR",
+    "logoURI": "https://assets.coingecko.com/coins/images/17984/small/9285.png"
+  },
+  {
+    "address": "0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D",
+    "symbol": "USDC",
+    "name": "USD Coin",
+    "decimals": 6,
+    "chainId": 1285,
+    "coinKey": "USDC",
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
+  },
+  {
+    "address": "0xf50225a84382c74CbdeA10b0c176f71fc3DE0C4d",
+    "symbol": "WMOVR",
+    "name": "Wrapped MOVR",
+    "decimals": 18,
+    "chainId": 1285,
+    "coinKey": "WMOVR",
+    "logoURI": "https://static.debank.com/image/movr_token/logo_url/0xf50225a84382c74cbdea10b0c176f71fc3de0c4d/6c93b85d32ac0321445beabffb923435.png"
+  },
+  {
+    "address": "0xB44a9B6905aF7c801311e8F4E76932ee959c663C",
+    "symbol": "USDT",
+    "name": "USDT",
+    "decimals": 6,
+    "chainId": 1285,
+    "coinKey": "USDT",
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+  }
+]
