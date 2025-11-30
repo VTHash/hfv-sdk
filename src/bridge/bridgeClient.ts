@@ -14,17 +14,20 @@ export class HFVBridge {
 
   constructor(client: HFVClient) {
     this.client = client
+
     this.http = axios.create({
-      baseURL: client.apiBaseUrl,
+      baseURL: client.apiBaseUrl || 'https://hfv-api.onrender.com',
       timeout: 20000
     })
   }
 
   /**
-   * Ask HFV backend for a bridge quote (fees, route, expected output).
-   * Backend route: POST /bridge/quote
+   * Request a bridge quote.
+   * POST /bridge/quote
    */
-  async getQuote(params: BridgeQuoteParams): Promise<BridgeQuote & { quoteId?: string }> {
+  async getQuote(
+    params: BridgeQuoteParams
+  ): Promise<BridgeQuote & { quoteId?: string }> {
     const payload = { ...params, env: this.client.env }
 
     const { data } = await this.http.post('/bridge/quote', payload)
@@ -39,8 +42,8 @@ export class HFVBridge {
   }
 
   /**
-   * Execute a bridge via the HFV backend.
-   * Backend route: POST /bridge/execute
+   * Execute the bridge.
+   * POST /bridge/execute
    */
   async bridge(params: BridgeTxParams): Promise<BridgeExecutionResult> {
     const payload = { ...params, env: this.client.env }
@@ -54,8 +57,8 @@ export class HFVBridge {
   }
 
   /**
-   * Poll bridge status (via trackingId).
-   * Backend route: GET /bridge/status?id=...
+   * Track the bridge status.
+   * GET /bridge/status?id=...
    */
   async getStatus(trackingId: string): Promise<BridgeStatus> {
     const { data } = await this.http.get('/bridge/status', {
