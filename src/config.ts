@@ -18,5 +18,4 @@ export const HFV_API_BASE_URL = process.env.HFV_API_BASE_URL ||
 
 export const defaultConfig: Required<HFVSDKConfig> = {
   env: 'mainnet',
-  apiBaseUrl: 'https://api.hfvprotocol.org'
-}
+  apiBaseUrl: 'https://hfv-api.onrender.com'  }
