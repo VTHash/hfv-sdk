@@ -1,8 +1,3 @@
-// HFV-SDK – Token Registry Loader
-
-import fs from "fs";
-import path from "path";
-
 export interface TokenInfo {
   chainId: number;
   address: string;
@@ -16,58 +11,117 @@ export interface TokenInfo {
 
 export type ChainTokenMap = Record<string, TokenInfo[]>;
 
-const TOKENS_DIR = path.join(__dirname, "tokens");
+// -------------------------------------------------------
+// 1. IMPORT TOKEN JSON FILES
+// (one import per file in src/tokens)
+// -------------------------------------------------------
+// ⚠️ Make sure tsconfig.json has: "resolveJsonModule": true
 
-// -----------------------------
-// Load all token JSON files
-// -----------------------------
+import abstract from './tokens/abstract.json';
+import arbitrum from './tokens/arbitrum.json';
+import aurora from './tokens/aurora.json';
+import avalanche from './tokens/avalanche.json';
+import base from './tokens/base.json';
+import berachain from './tokens/berachain.json';
+import blast from './tokens/blast.json';
+import bob from './tokens/bob.json';
+import bsc from './tokens/bsc.json';
+import celo from './tokens/celo.json';
+import ethereumClassic from './tokens/ethereum-classic.json';
+import ethereum from './tokens/ethereum.json';
+import fantom from './tokens/fantom.json';
+import flare from './tokens/flare.json';
+import fuse from './tokens/fuse.json';
+import gnosis from './tokens/gnosis.json';
+import inkonchain from './tokens/inkonchain.json';
+import polygon from './tokens/polygon.json';
+import optimism from './tokens/optimism.json';
+import katana from './tokens/katana.json';
+import klaytn from './tokens/klaytn.json';
+import linea from './tokens/linea.json';
+import lisk from './tokens/lisk.json';
+import mantle from './tokens/mantle.json';
+import mode from './tokens/mode.json';
+import moonbeam from './tokens/moonbeam.json';
+import moonriver from './tokens/moonriver.json';
+import sei from './tokens/sei.json';
+import soneium from './tokens/soneium.json';
+import sonic from './tokens/sonic.json';
+import swellchain from './tokens/swellchain.json';
+import syscoin from './tokens/syscoin.json';
+import telos from './tokens/telos.json';
+import unichain from './tokens/unichain.json';
+import worldcoin from './tokens/worldcoin.json';
+import xdc from './tokens/xdc.json';
+import zksync from './tokens/zksync.json';
+import zora from './tokens/zora.json';
 
-function loadTokens(): ChainTokenMap {
-  const registry: ChainTokenMap = {};
 
-  const files = fs.readdirSync(TOKENS_DIR).filter(f => f.endsWith(".json"));
 
-  for (const file of files) {
-    const chainName = file.replace(".json", "");
 
-    const fullPath = path.join(TOKENS_DIR, file);
-    try {
-      const content = JSON.parse(fs.readFileSync(fullPath, "utf8"));
 
-      // handle empty file
-      if (!Array.isArray(content)) {
-        registry[chainName] = [];
-        continue;
-      }
 
-      registry[chainName] = content as TokenInfo[];
-    } catch (err) {
-      console.error(`❌ Failed to parse token file: ${file}`, err);
-      registry[chainName] = [];
-    }
-  }
+// -------------------------------------------------------
+// 2. BUILD REGISTRY
+// -------------------------------------------------------
 
-  return registry;
-}
+export const tokenRegistry: ChainTokenMap = {
+  abstract,
+  arbitrum,
+  aurora,
+  avalanche,
+  base,
+  berachain,
+  blast,
+  bob,
+  bsc,
+  celo,
+  'ethereum-classic': ethereumClassic,
+  ethereum,
+  fantom,
+  flare,
+  fuse,
+  gnosis,
+  polygon,
+  optimism,
+  inkonchain,
+  katana,
+  klaytn,
+  linea,
+  lisk,
+  mantle,
+  mode,
+  moonbeam,
+  moonriver,
+  sei,
+  soneium,
+  sonic,
+  swellchain,
+  syscoin,
+  telos,
+  unichain,
+  worldcoin,
+  xdc,
+  zksync,
+  zora,
 
-// Load immediately at startup
-export const tokenRegistry: ChainTokenMap = loadTokens();
+};
 
-// -----------------------------
-// Access Helpers
-// -----------------------------
+// -------------------------------------------------------
+// 3. HELPERS
+// -------------------------------------------------------
 
-/** Get all chains in registry */
+/** Get supported chain *names* (keys of the registry) */
 export function getSupportedChains(): string[] {
   return Object.keys(tokenRegistry);
 }
 
-/** Get tokens by chain name (e.g. 'ethereum') */
+/** Get tokens by chain key (e.g. "ethereum", "bsc", "arbitrum") */
 export function getTokensByChain(chain: string): TokenInfo[] {
   return tokenRegistry[chain.toLowerCase()] || [];
 }
 
-/** Get tokens by chainId number */
+/** Get tokens by numeric chainId */
 export function getTokensByChainId(chainId: number): TokenInfo[] {
   const entry = Object.entries(tokenRegistry).find(
     ([, tokens]) => tokens[0]?.chainId === chainId
@@ -80,7 +134,7 @@ export function findToken(address: string): TokenInfo | undefined {
   const addr = address.toLowerCase();
 
   for (const tokens of Object.values(tokenRegistry)) {
-    const found = tokens.find(t => t.address.toLowerCase() === addr);
+    const found = tokens.find((t) => t.address.toLowerCase() === addr);
     if (found) return found;
   }
   return undefined;
@@ -93,7 +147,7 @@ export function findTokenOnChain(
 ): TokenInfo | undefined {
   const list = tokenRegistry[chain.toLowerCase()];
   if (!list) return undefined;
-  return list.find(t => t.symbol.toLowerCase() === symbol.toLowerCase());
+  return list.find((t) => t.symbol.toLowerCase() === symbol.toLowerCase());
 }
 
 export default {
@@ -102,5 +156,5 @@ export default {
   getTokensByChain,
   getTokensByChainId,
   findToken,
-  findTokenOnChain
+  findTokenOnChain,
 };

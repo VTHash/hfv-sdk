@@ -1,0 +1,11 @@
+[
+  {
+    "address": "0x0000000000000000000000000000000000000000",
+    "symbol": "BERA",
+    "name": "Berachain",
+    "decimals": 18,
+    "chainId": 80084,
+    "coinKey": "BERA",
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/200x200/24647.png"
+  }
+]
