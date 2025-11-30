@@ -1,22 +1,18 @@
 {
   "name": "hfv-sdk",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "HFV SDK for bridge + prices + chain metadata",
-  "author": "HFV Protocol",
-  "license": "MIT",
 
-  "type": "module",
   "main": "./dist/index.cjs",
-  "module": "./dist/index.mjs",
+  "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
 
   "exports": {
     ".": {
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.cjs",
-      "types": "./dist/index.d.ts"
-    },
-    "./*": "./dist/*"
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
   },
 
   "files": ["dist"],
@@ -27,6 +23,18 @@
     "dev": "tsup src/index.ts --dts --format esm,cjs --watch"
   },
 
+  "keywords": [
+    "web3",
+    "sdk",
+    "bridge",
+    "prices",
+    "wormhole",
+    "hfv"
+  ],
+
+  "author": "HFV Protocol",
+  "license": "MIT",
+
   "dependencies": {
     "axios": "^1.13.2"
   },
@@ -36,14 +44,6 @@
     "typescript": "^5.4.0",
     "@types/node": "^22.0.0"
   },
-
-  "keywords": [
-    "web3",
-    "sdk",
-    "bridge",
-    "wormhole",
-    "hfv"
-  ],
 
   "repository": {
     "type": "git",
